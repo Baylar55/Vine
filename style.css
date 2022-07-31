@@ -1,0 +1,391 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 1400px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.first-screen {
+  background-image: url(./assets/images/background.png);
+  height: 900px;
+  border-image-width: auto;
+  color: white;
+}
+
+.info {
+  width: 1110px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.first-screen p {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.main-nav {
+  margin: 0 auto;
+  margin-top: 20px;
+  display: table;
+}
+.nav-items {
+  width: 1110px;
+  height: 47px;
+  display: table;
+  list-style: none;
+  justify-content: space-around;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+.nav-items li {
+  display: table-cell;
+  border: 1px solid white;
+  padding-top: 10px;
+  padding-left: 100px;
+}
+.nav-items li:first-child {
+  border-left: solid transparent;
+}
+
+.nav-items li:last-child {
+  border-right: solid transparent;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 600px;
+}
+
+.buttons button:not(:last-child) {
+  margin-right: 60px;
+}
+
+.buttons button {
+  border-radius: dashed;
+  width: 180px;
+  height: 50px;
+  background-color: #998431;
+  color: white;
+}
+
+.description {
+  height: 756px;
+  background-color: #282828;
+  padding-top: 100px;
+}
+
+/* bura baxxx */
+.description-box {
+  /* border: 1px solid red; */
+  border: 3px solid #c4c4c4;
+
+  width: 810px;
+  height: 556px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.description-box-header {
+  margin-top: 60px;
+  color: white;
+}
+
+.description-box-content {
+  width: 632px;
+  margin: 0 auto;
+  margin-top: 60px;
+  color: white;
+}
+.description-box-content p:first-child {
+  font-size: 22px;
+}
+
+.description-box-content .line {
+  border-bottom: 1px solid white;
+  width: 120px;
+  margin: 40px auto;
+}
+
+.description-box-content img {
+  margin: 0 auto;
+  margin-top: 55px;
+}
+
+.collection {
+  height: 870px;
+  background-color: #e6e3c4;
+  padding-top: 80px;
+}
+
+.collection-container {
+  display: flex;
+  width: 810px;
+  height: 720px;
+  justify-content: space-between;
+  border: 1px solid #998431;
+  border-left: none;
+  border-right: none;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.collection-container .images {
+  height: 760px;
+  width: 400px;
+}
+
+.images img:first-child {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.images img:not(:first-child) {
+  width: 49%;
+}
+
+.collection-content p:first-child {
+  font-size: 13px;
+}
+
+.collection-content .heading {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 400;
+  color: #282828;
+  margin-top: 20px;
+}
+
+.collection-content .paragraph-content {
+  font-size: 11px;
+  color: #282828;
+  font-weight: 400;
+}
+
+.collection-content .line2 {
+  border: 1px solid #282828;
+  width: 135px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.collection table {
+  border-collapse: collapse;
+  width: 370px;
+  height: 230px;
+  margin: 20px auto;
+  border: none;
+}
+
+.collection table td {
+  border: 1px solid red;
+  border-left: none;
+  border-bottom: none;
+  /* justify-content: center; */
+  text-align: center;
+}
+
+.collection table tr {
+  border-top: none;
+}
+
+.collection table td {
+  font-size: 11px;
+  color: #282828;
+  font-weight: 400;
+}
+
+.collection table .right {
+  border-right: none;
+}
+.collection table .top {
+  border-top: none;
+}
+
+.collection table tr:first-child td:first-child {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.collection .italic {
+  font-family: "Playball", cursive;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.collection-content {
+  width: 380px;
+}
+
+.collection-content button {
+  width: 150px;
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 0;
+  background-color: #998431;
+  color: white;
+}
+
+.form {
+  height: 900px;
+  background-color: #282828;
+  padding-top: 120px;
+  position: relative;
+}
+
+.form-container {
+  width: 810px;
+  height: 470px;
+  margin: 0 auto;
+  border: 3px solid #c4c4c4;
+  display: flex;
+  flex-direction: column;
+}
+
+.grape {
+  position: relative;
+}
+
+.barrel {
+  position: relative;
+}
+
+.form-container .grape img {
+  position: absolute;
+  top: -80px;
+  left: -60px;
+}
+
+.form-container .barrel img {
+  position: absolute;
+  top: -80px;
+  right: -60px;
+}
+
+.form .form-name {
+  color: white;
+  width: 320px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 54px;
+  position: absolute;
+  left: 535px;
+  top: 95px;
+  background-color: #282828;
+}
+
+.form-container .form-line {
+  width: 100px;
+  border: 1px solid white;
+  margin: 50px auto;
+}
+
+.form-container .form-content {
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  width: 380px;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+}
+
+.form-container .inputs {
+  text-align: center;
+  margin-top: 70px;
+  color: white;
+}
+
+.inp {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  width: 180px;
+  border-bottom: 1px solid white;
+  margin-bottom: 40px;
+}
+
+.inps {
+  width: 365px;
+}
+
+::placeholder{
+  color: white;
+}
+
+form button {
+  width: 365px;
+  border-radius: 0px;
+  color: white;
+  background-color: transparent;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 13px;
+  line-height: 20px;
+  height: 40px;
+  border: 1px solid white;
+}
+
+footer {
+  background: #998431;
+  padding-top: 50px;
+  padding-bottom:50px;
+}
+
+.footer-container {
+  width: 810px;
+  margin: 0 auto;
+}
+
+.navbar .navbar-items {
+  border: 1px solid white;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 12px;
+  color: white;
+  line-height: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar .navbar-items {
+  border-right: none;
+  border-left: none;
+}
+
+.contacts .contacts-list {
+  display: table;
+}
+
+.contacts li:first-child {
+  border-left: none;
+}
+
+.contacts li {
+  width: 810px;
+  list-style: none;
+  display: table-cell;
+  text-align: center;
+  border: 1px solid white;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border-right: none;
+}
+.icons{
+  display: flex;
+  justify-content: space-evenly;
+}
+
